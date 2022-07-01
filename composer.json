@@ -1,0 +1,7 @@
+{
+    "require": {
+        "pusher/pusher-php-server": "^7.0",
+        "rbdwllr/reallysimplejwt": "^4.0",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

@@ -1,0 +1,48 @@
+#chat{
+    border-left: 1px solid white;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    padding-top: 1vh;
+    
+    #messages{
+        height: 95vh;
+        padding-left: 20px;
+        overflow: auto;
+        padding-bottom: 5vh;
+
+        .message{
+            display: block;
+            span.user{
+                font-weight: 600;
+            }
+        }
+
+        .command{
+            display: block;
+            color: rgba(darken($font-color, 25), 0.9);
+            font-style: italic;
+        }
+
+
+    } 
+
+    form{
+        display: inline-flex;
+        padding: 0px;
+        background-color: $bg-color;
+        position: absolute;
+        bottom: 0px;
+        left: 15px;
+        #messageBox{
+            background-color: $bg-color;
+            border: 0px solid white;
+            border-bottom: 1px solid white;
+            outline: none;
+            color: $font-color;
+            padding-left: 0px;
+
+        }
+    }
+
+}

@@ -1,0 +1,48 @@
+#adminPanel{
+    #backgroundImage{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/adminBackground.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100% !important;
+        height: 100% !important;
+        filter: blur(8px);
+        display: block;
+        position: absolute;
+        z-index: 1;
+    }
+    #content{
+        position: absolute;
+        z-index: 10;
+        padding: 5vh;
+        height: 100%;
+        .currentlyWatched{
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        #movies{
+            margin-top: 3vh;
+
+            #currentMovie, option{
+                padding: 5px;
+            }
+        }
+        #logs{
+            margin-top: 3vh;
+            p#title{
+                font-size: 1.25rem;
+                text-align: center;;
+            }
+            p.log{
+            
+            }
+
+        }
+    }
+}
+
+.inline-flex{
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
